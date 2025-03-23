@@ -5,6 +5,7 @@ Entire application is developed using Android studio, Java, Mvvm Structure.
 
 
 #Project Structure
+
 -app/
     -data/
         -model/                             # model class for Article, Comment and Like 
