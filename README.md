@@ -14,14 +14,14 @@ Entire application is developed using Android studio, Java, Mvvm Structure.
 Below mentioned the structure code for the app.
 
 
-## Project Structure
+# Project Structure
 
--app/
-    -data/
-        -model/                             # [model class for Article, Comment and Like]. 
-            -Article.java
-            -Comment.java
-            -NewsResponse.java
+    -app/
+        -data/
+            -model/                             # model class for Article, Comment and Like
+                -Article.java
+                -Comment.java
+                -NewsResponse.java
 
         -network/                           # For creating Retrofit client, Api Path 
             -NewsApiService.java
@@ -55,8 +55,8 @@ Below mentioned the structure code for the app.
                 -item_article.xml
 
             -drawable/
-                -placeholder.png
+                -splash.png
+                -news_paper.png
 
--AndroidManifest.xml                        # For providing permissions.
-
--build.gradle                               # for including dependencies that we are going to use in our app like Glide, Retrofit,etc.
+    -AndroidManifest.xml                        # For providing permissions.
+    -build.gradle                               # for including dependencies that we are going to use in our app like Glide, Retrofit,etc.
