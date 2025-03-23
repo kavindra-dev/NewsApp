@@ -4,11 +4,11 @@ Showing US news from newsapi.org
 Entire application is developed using Android studio, Java, Mvvm Structure.
 
 
-#Project Structure
+##Project Structure
 
 -app/
     -data/
-        -model/                             # model class for Article, Comment and Like 
+        -model/                             # [model class for Article, Comment and Like]. 
             -Article.java
             -Comment.java
             -NewsResponse.java
